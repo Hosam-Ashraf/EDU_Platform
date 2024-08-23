@@ -1,0 +1,6 @@
+{% for teacher in teachers %}
+    <div>
+        <h2>{{ teacher.user.username }}</h2>
+        <p>Rank: {{ teacher.rank }}</p>
+    </div>
+{% endfor %}
